@@ -1,0 +1,52 @@
+SITE DU GÉNÉRATEUR DE KHOTBA — mise en ligne
+============================================
+
+Contenu
+- index.html             page d'accueil (français / arabe)
+- confidentialite.html   règles de confidentialité
+- conditions.html        conditions d'utilisation
+Les images sont intégrées dans les fichiers : il n'y a rien d'autre à envoyer.
+
+0. AVANT TOUT : votre adresse de contact
+   Ouvrez chaque fichier .html avec le Bloc-notes, faites Ctrl+H et remplacez
+   [adresse e-mail de contact à compléter]
+   (et, dans index.html, [عنوان البريد الإلكتروني للتواصل يُستكمل لاحقًا])
+   par votre adresse. Enregistrez.
+
+1. HÉBERGEMENT GRATUIT SUR GITHUB PAGES
+   a. Créez un compte gratuit sur https://github.com (choisissez bien votre nom
+      d'utilisateur : il fera partie de l'adresse du site).
+   b. En haut à droite : « + » > « New repository ».
+      Nom exactement : <votre-nom-utilisateur>.github.io   — Public — Create repository.
+   c. Cliquez sur « uploading an existing file », glissez les 3 fichiers .html,
+      puis « Commit changes ».
+   d. Onglet « Settings » > « Pages » : Source « Deploy from a branch »,
+      Branch « main », dossier « / (root) » > Save.
+   e. Après 1 à 2 minutes, le site est en ligne :
+      https://<votre-nom-utilisateur>.github.io/
+
+2. DÉCLARER LE DOMAINE CHEZ GOOGLE (obligatoire pour l'écran de connexion)
+   a. Ouvrez https://search.google.com/search-console avec le même compte Google
+      que celui de la console Google Cloud.
+   b. « Ajouter une propriété » > « Préfixe de l'URL » :
+      https://<votre-nom-utilisateur>.github.io/
+   c. Méthode « Fichier HTML » : téléchargez le fichier googleXXXXXXXX.html proposé,
+      envoyez-le dans le même dépôt GitHub (comme à l'étape 1c), attendez 1 minute,
+      puis cliquez sur « Valider ».
+
+3. RENSEIGNER LES LIENS CHEZ GOOGLE
+   Google Auth Platform > « Personnalisation » :
+   - Domaines autorisés : <votre-nom-utilisateur>.github.io
+   - Page d'accueil : https://<votre-nom-utilisateur>.github.io/
+   - Règles de confidentialité : https://<votre-nom-utilisateur>.github.io/confidentialite.html
+   - Conditions d'utilisation : https://<votre-nom-utilisateur>.github.io/conditions.html
+   > Enregistrer.
+   Google peut alors lancer une vérification de la marque (quelques jours).
+   Gardez le logo vide si vous voulez éviter une vérification plus longue.
+
+4. CHEZ MICROSOFT (facultatif, aucune vérification)
+   Entra > votre application > « Personnalisation et propriétés » :
+   URL de la page d'accueil, des conditions d'utilisation et de la déclaration de
+   confidentialité : mêmes adresses qu'à l'étape 3 > Enregistrer.
+
+Mettre à jour le site : renvoyez simplement les fichiers modifiés dans le dépôt GitHub.
